@@ -1,0 +1,385 @@
+{
+  "hotle": {
+    "name": {
+      "description": "name of the hotel.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "type": {
+      "description": "type of hotel.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["guesthouse", "hotel"],
+      "is_picklist": true
+    },
+    "stars": {
+      "description": "star rating of hotel.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["0", "1", "2", "3", "4", "5"],
+      "is_picklist": true
+    },
+    "price": {
+      "description": "price budget for the hotel.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["cheap", "expensive", "moderate"],
+      "is_picklist": true
+    },
+    "parking": {
+      "description": "whether the hotel has parking.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["no", "yes"],
+      "is_picklist": true
+    },
+    "internet": {
+      "description": "whether the hotel has internet.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["no", "yes"],
+      "is_picklist": true
+    },
+    "stay": {
+      "description": "length of stay at the hotel.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "day": {
+      "description": "day of the hotel booking.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": ["monday", "tuesday", "wednesday", "thursday", "friday", 
+                 "saturday", "sunday"],
+      "is_picklist": true
+    },
+    "people": {
+      "description": "how many people for the hotel booking.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "area": {
+      "description": "area of the hotel.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["centre", "east", "north", "south", "west"],
+      "is_picklist": true
+    },
+    "address": {
+      "description": "address of the hotel.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "phone": {
+      "description": "phone number of the hotel.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "postcode": {
+      "description": "postal code of the hotel.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    }
+  },
+  "train": {
+    "trainID": {
+      "description": "id of the train.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "price": {
+      "description": "price of the train.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "duration": {
+      "description": "duration of the train.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "people": {
+      "description": "how many train tickets.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "day": {
+      "description": "day of the train.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": ["monday", "tuesday", "wednesday", "thursday", "friday", 
+                 "saturday", "sunday"],
+      "is_picklist": true
+    },
+    "departure": {
+      "description": "the departure location.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "destination": {
+      "description": "the destination location.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "leaveAt": {
+      "description": "the leaving time.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "arriveBy": {
+      "description": "the arrival time.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    }
+  },
+  "restaurant": {
+    "name": {
+      "description": "name of the restaurant.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "food": {
+      "description": "type of food offered by the restaurant.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "area": {
+      "description": "area or place of the restaurant.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["centre", "east", "north", "south", "west"],
+      "is_picklist": true
+    },
+    "price": {
+      "description": "price budget for the restaurant.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["cheap", "expensive", "moderate"],
+      "is_picklist": true
+    },
+    "day": {
+      "description": "day of the restaurant booking.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": ["monday", "tuesday", "wednesday", "thursday", "friday", 
+                 "saturday", "sunday"],
+      "is_picklist": true
+    },
+    "people": {
+      "description": "how many people for the restaurant reservation.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "time": {
+      "description": "time of the restaurant booking.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "address": {
+      "description": "address of the restaurant.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "phone": {
+      "description": "phone number of the restaurant.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "postcode": {
+      "description": "postal code of the restaurant.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    }
+  },
+  "attraction": {
+    "name": {
+      "description": "name of the attraction.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "type": {
+      "description": "type of the attraction.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["architecture", "boat", "cinema", "college", "concerthall", 
+                 "entertainment", "museum", "multiple sports", "nightclub",
+                 "park", "swimmingpool", "theatre"],
+      "is_picklist": true
+    },
+    "area": {
+      "description": "area to search for attraction.",
+      "is_info": true,
+      "is_reqt": true,
+      "values": ["centre", "east", "north", "south", "west"],
+      "is_picklist": true
+    },
+    "entrance fee": {
+      "description": "how much is the entrance fee.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": ["cheap", "expensive", "moderate"],
+      "is_picklist": true
+    },
+    "address": {
+      "description": "address of the attraction.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "phone": {
+      "description": "phone number of the attraction.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "postcode": {
+      "description": "postal code of the attraction.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    }
+  },
+  "hospital": {
+    "department": {
+      "description": "type of medical care.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "address": {
+      "description": "address of the hospital.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "phone": {
+      "description": "phone number of the hospital.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "postcode": {
+      "description": "postal code of the hospital.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    }       
+  },
+  "taxi": {
+    "car type": {
+      "description": "car type of the taxi.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "phone": {
+      "description": "phone number of the taxi.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "departure": {
+      "description": "the departure location.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "destination": {
+      "description": "the destination location.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "leaveAt": {
+      "description": "the leaving time.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    },
+    "arriveBy": {
+      "description": "the arrival time.",
+      "is_info": true,
+      "is_reqt": false,
+      "values": [],
+      "is_picklist": false
+    }
+  },
+  "police": {
+    "address": {
+      "description": "address of the police station.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "phone": {
+      "description": "phone number of the police station.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    },
+    "postcode": {
+      "description": "postal code of the police station.",
+      "is_info": false,
+      "is_reqt": true,
+      "values": [],
+      "is_picklist": false
+    }
+  }
+}
