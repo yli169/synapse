@@ -5,7 +5,7 @@
     <br>
 <p>
 
-This project provides neural models with easy-to-use APIs to perform NLU tasks, and notebooks for paper reviews. The models are backed up by [Tensorflow](https://www.tensorflow.org) and all code follow [Google Coding Style](https://google.github.io/styleguide/pyguide.html).
+A project that provides neural models with easy-to-use APIs to perform NLU tasks and paper reviews. The models are backed up by [Tensorflow](https://www.tensorflow.org) and all code follow [Google Coding Style](https://google.github.io/styleguide/pyguide.html).
 
 ## Model architectures
 
