@@ -9,9 +9,11 @@ A project that provides neural models with easy-to-use APIs to perform NLU tasks
 
 ## Model architectures
 
-1. [Bahdanau attention](https://github.com/yli169/synapse/blob/main/notebooks/bahdanau_attention.ipynb) (from Jacobs University Bremen, Universite de Montreal ) released with paper [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) `ICLR 2015`, by Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio.
+1. [LSTM](https://github.com/yli169/synapse/blob/main/notebooks/lstm/lstm.ipynb) released with paper [Long Short-Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf) `Neural Computation 1997`, by Sepp Hochreiter, Jürgen Schmidhuber.
 
-2. [Transformer](https://github.com/yli169/synapse/blob/main/notebooks/transformer.ipynb) (from Google) released with paper [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) `NeurIPS 2017`, by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.
+2. [Bahdanau attention](https://github.com/yli169/synapse/blob/main/notebooks/bahdanau_attention/bahdanau_attention.ipynb) (from Jacobs University Bremen, Universite de Montreal ) released with paper [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) `ICLR 2015`, by Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio.
+
+3. [Transformer](https://github.com/yli169/synapse/blob/main/notebooks/transformer/transformer.ipynb) (from Google) released with paper [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) `NeurIPS 2017`, by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.
 
 ## Dependencies
 
