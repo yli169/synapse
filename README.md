@@ -13,7 +13,9 @@ A project that provides neural models with easy-to-use APIs to perform NLU tasks
 
 2. [Bahdanau attention](https://github.com/yli169/synapse/blob/main/notebooks/bahdanau_attention.ipynb) (from Jacobs University Bremen, Universite de Montreal ) released with paper [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) `ICLR 2015`, by Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio.
 
-3. [Transformer](https://github.com/yli169/synapse/blob/main/notebooks/transformer.ipynb) (from Google) released with paper [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) `NeurIPS 2017`, by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.
+3. [Copy Mechanism](https://github.com/yli169/synapse/blob/main/notebooks/pointer_generator.ipynb) (from Stanford & Google) released with paper [Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/pdf/1704.04368.pdf) `ACL 2017`, by Abigail See, Peter J. Liu, Christopher D. Manning.
+
+4. [Transformer](https://github.com/yli169/synapse/blob/main/notebooks/transformer.ipynb) (from Google) released with paper [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) `NeurIPS 2017`, by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.
 
 ## Dependencies
 
@@ -49,6 +51,7 @@ GRU | [Learning Phrase Representations using RNN Encoder–Decoder for Statistic
 Seq2seq | [Sequence to Sequence Learning with Neural Networks](https://papers.nips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) `NeurIPS 2014` Ilya Sutskever, Oriol Vinyals, Quoc V. Le | |   
 Bahdanau Attention | [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) `ICLR 2015` Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio |  |:white_check_mark: 
 Luong Attention | [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf) `EMNLP 2015` Minh-Thang Luong, Hieu Pham, Christopher D. Manning |  | 
+Copy Mechanism | [Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/pdf/1704.04368.pdf) `ACL 2017`, Abigail See, Peter J. Liu, Christopher D. Manning |  | :white_check_mark: 
 Transformer | [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) `NeurIPS 2017` Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin |  | :white_check_mark: 
 TransformerXL | [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) `ACL 2019` Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov |  | 
 Longformer | [Longformer: The Long-Document Transformer](https://arxiv.org/pdf/2004.05150.pdf) `2020` Iz Beltagy, Matthew E. Peters, Arman Cohan |  | 
