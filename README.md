@@ -17,6 +17,8 @@ A project that provides neural models with easy-to-use APIs to perform NLU tasks
 
 4. [Transformer](https://github.com/yli169/synapse/blob/main/notebooks/transformer.ipynb) (from Google) released with paper [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) `NeurIPS 2017`, by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.
 
+5. [Graph Attention Networks](https://github.com/yli169/synapse/blob/main/notebooks/graph_attention_networks.ipynb) (from Cambridge & MILA) released with paper [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) `ICLR 2018`, by Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio.
+
 ## Dependencies
 
 The project is tested on [Python 3.8+](https://www.python.org/downloads/release/python-382/) and [Tensorflow Core v2.4+](https://www.tensorflow.org/api_docs).
@@ -60,3 +62,4 @@ ALBERT | [ALBERT: A Lite BERT for Self-supervised Learning of Language Represent
 GPT-1 | [Improving Language Understanding by Generative Pre-Training](https://openai.com/blog/language-unsupervised/) `2018` Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever |  | 
 T5 | [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf) `JMLR 2020` Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu |  | 
  | | [Don't Parse, Generate! A Sequence to Sequence Architecture for Task-Oriented Semantic Parsing](https://arxiv.org/pdf/2001.11458.pdf) `WWW 2020` Subendhu Rongali, Luca Soldaini, Emilio Monti, Wael Hamza |  | 
+Graph Attention Networks | [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) `ICLR 2018`, by Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio |   | :white_check_mark:
